@@ -1,17 +1,11 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-
+import Head from 'next/head';
 export default function Home() {
+  <Head>
+    <title>Next js app with typescript and chakra UI setup</title>
+  </Head>
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <div>
-        Hello world
-      </div>
-
+    <div >
+    {/* Content goes here */}
       
     </div>
   )
